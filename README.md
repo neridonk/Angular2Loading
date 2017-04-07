@@ -9,4 +9,5 @@ Usage :
   
   
    LoadingService.show('dashLoad');  <--before callback 
+   
    LoadingService.hide('dashLoad'); <--after
