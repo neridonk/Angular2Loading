@@ -6,14 +6,25 @@ Usage :
 ```sh
   <div hasLoading [loadOnInit]="true" [onLoading]="'dashLoad'">
   </div>
-  ```
+```
   
   before callback 
-  ```sh
+```sh
    LoadingService.show('dashLoad');  
-     ```
+```
+     
      
    callback finished
-     ```sh
-   LoadingService.hide('dashLoad'); <--after
-    ```
+```sh
+   LoadingService.hide('dashLoad');
+```
+
+Example usage
+```sh
+ LoadingService.hide('myElement');
+  this.licenceService.getLicence(licenceId).subscribe(
+      data => LoadingService.hide('myElement'),
+      err => err,
+     }
+    );
+```
