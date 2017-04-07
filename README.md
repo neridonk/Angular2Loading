@@ -2,6 +2,10 @@
 
 Current loader is with http://materializecss.com/
 
+
+optional : [loadOnInit]="true" 
+
+
 Usage :
 ```sh
   <div hasLoading [loadOnInit]="true" [onLoading]="'dashLoad'">
