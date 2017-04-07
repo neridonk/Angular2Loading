@@ -8,6 +8,12 @@ Usage :
   </div>
   ```
   
-   LoadingService.show('dashLoad');  <--before callback 
-   
+  before callback 
+  ```sh
+   LoadingService.show('dashLoad');  
+     ```
+     
+   callback finished
+     ```sh
    LoadingService.hide('dashLoad'); <--after
+    ```
